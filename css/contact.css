@@ -1,0 +1,73 @@
+.visit{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
+    padding: 30px 0px;
+}
+/* .visit_wrap{
+    background-color: #f4f4f4;
+} */
+.visit:hover .location i{
+    background-color: black;
+}
+.visit:hover{
+    border-bottom: 1px solid #fc3c3c;
+}
+.location i{
+    font-size: 64px;
+    line-height: 64px;
+    color: #fff;
+    background-color: #fc3c3c;
+    border-radius: 50%;
+    padding: 22px;
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    top: -50px;
+    left: 126px;
+}
+.location_content{
+    /* position: absolute; */
+    padding-top: 50px;
+}
+.contact_us_wrap{
+    margin-top: 80px;
+}
+.repeated_title{
+    text-align: left;
+}
+.repeated_title h2{
+    line-height: normal;
+}
+.social{
+    justify-content: flex-end;
+}
+.social a{
+    padding-left: 0px;
+    padding-right: 10px;
+  
+}
+
+@media (max-width: 638px) {
+    .location i {
+        font-size: 32px;
+        line-height: 44px;
+        padding: 14px;
+        width: 80px;
+        height: 80px;
+        top: -43px;
+        left: 200px;
+    }
+    .visit{
+        margin-top: 60px;
+    }
+    .location_content{
+        padding-top: 24px;
+    }
+}
+

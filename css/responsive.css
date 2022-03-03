@@ -1,0 +1,353 @@
+@media (max-width: 1200px){
+    .menu{
+        display: none !important;
+    }
+    .nav_bar{
+        justify-content: space-between;
+    }
+    .count_item{
+        padding-left: 70px;
+        padding-right: 69px;
+        padding-top: 60px;
+    }
+    .navbar-toggler{
+        color: #fff;
+        display: block !important;
+    }
+    .menu_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+ }
+ @media(max-width:999px){
+     .count_item{
+        padding-left: 42px;
+        padding-right: 42px;
+     }
+     .navbar-toggler{
+        color: #fff;
+        display: block !important;
+    }
+     .footer_email{
+        padding: 20px 20px;
+     }
+     .subscribe{
+        padding: 20px 58px;
+     }
+     .btn button{
+        padding: 0px 14px;
+     }
+     .choice_item {
+        padding: 21px 0px 0px 0px;
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        }
+        .mid_content h1{
+            font-size: 54px;
+        }
+     
+ }
+ @media(max-width:792px){
+    .menu_wrapper{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        }
+    .count_item{
+       padding-left: 18px;
+       padding-right: 18px;
+    }
+    .cart_item{
+        display: none;
+    }
+    .show_btn{
+        margin-left: 0px;
+        margin-right: 4px;
+    }
+    .show_btn button{
+        padding: 10px;
+    }
+    .mid_content h1{
+        font-size: 54px;
+    }
+    .blog{
+        margin-bottom: 0px;
+    }
+    .blog_content{
+        top: 180px;
+    }
+    .blog_content ul{
+        padding-left: 0px;
+    }
+    .blog_title{
+        padding-left: 0px;
+    }
+    .blog_title h3 a {
+        color: #000;
+        text-decoration: none;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .blog_content ul .comments {
+        padding-left: 1%;
+    }
+    .brand_slider{
+        top: 136px;
+    }
+    .blog_title p {
+        width: 180px;
+        color: #828892;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .mid_content p{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .social-media ul li{
+        margin-right: 10px;
+    }
+    .sign_in ul li {
+        margin-left: 10px;
+    }
+    .blog_title{
+        width: auto;
+    }
+    
+    .blog .repeated_title {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .offer_content {
+        margin-left: 25px;
+    }
+    .offer_content h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .count_items span{
+        font-size: 54px;
+        line-height: 40px;
+    }
+    .slide_wrap{
+        height: 100vh;
+    }
+    .slider_service{
+        height: auto;
+        top: 138px;
+    }
+    .brand_slider {
+        top: 300px;
+    }
+    .footer{
+        top: 300px;
+        height: 100vh;
+    }
+    .copyright{
+        top: 290px;
+    }
+    #look{
+        font-size: 12px;
+        padding-left: 2px;
+    }
+    .search_wrap select{
+        font-size: 12px;
+        padding-left: 2px;
+    }
+    .search_wrap ul{
+        height: 40px;
+    }
+    .slider_service .repeated_title {
+        padding-top: 50px;
+        padding-bottom: 128px;
+    }
+
+}
+
+@media (max-width: 745px) {
+    .navbar-toggler{
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    }
+    .top_nav_bar{
+        display: none;
+    }
+    .choice_bottom_content p {
+        font-size: 14px;
+    }
+    .mid_content h1 {
+        font-size: 44px;
+    }
+    .mid_content p {
+        font-size: 14px;
+    }
+    .blog_title{
+        width: 336px;
+    }
+    .footer {
+        top: 1200px;
+        height: 170vh;
+    }
+    .copyright{
+        top: 1100px;
+    }
+    .brand_slider {
+        top: 1245px;
+    }
+    .blog_content{
+        top: 245px;
+        padding-left: 5px;
+    }
+    .blog_title h3{
+        width: 200px;
+    }
+    .blog_title h3 a{
+        font-size: 16px;
+        line-height: 0px;
+    }
+    .blog_title p{
+        font-size: 14px;
+        width: 200px;
+    }
+    .item_wrap {
+        position: relative;
+        /* height: 100vh; */
+        padding: 20px 10px;
+    }
+    .social{
+        justify-content: flex-start;
+        padding: 0px 0px 10px 0px;
+    }
+    .social a{
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+    .layerdrop{
+        padding: 10px 0px;
+    }
+    .explore_wrap{
+        padding-left: 0px;
+    }
+    .offers{
+        margin-left: 20px !important;
+    }
+    .foodlover_img{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 638px) {
+    .count_item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .count_items span{
+        font-size: 44px;
+    }
+    .repeated_title h2 {
+        font-size: 40px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 34px;
+    }
+    .offers{
+        margin-left: 10px !important;
+    }
+    .offer_content p{
+        font-size: 24px;
+        line-height: normal;
+    }
+    .offer_content h3{
+        font-size: 24px;
+        line-height: normal;
+    }
+    .footer_shape{
+        width: 100%;
+    }
+    .search_wrap ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 638px) {
+    body{
+        overflow-x: hidden;
+    }
+    .curl_shape p{
+        padding: 0px;
+    }
+    .curl_shape{
+        display: none;
+    }
+    .show_btn{
+        display: none;
+    }
+    .count_item span{
+        font-size: 24px;
+    }
+    .input_box{
+        width: 60% !important;
+        margin-top: 5px;
+    }
+    .search_button {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .foodlover_img img{
+        width: 100%;
+    }
+    .footer_shape img{
+        width: 100%;
+    }
+}
+@media (max-width:390px){
+    .offcanvas{
+        width: 70% !important;
+    }
+    .copyright{
+        top: 1200px;
+    }
+    .search_wrap ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .input_box{
+        width: 80% !important;
+    }
+    .offer_content {
+        margin-left: 9px;
+    }
+    .offer_content h3 {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .mid_content h1 {
+        font-size: 30px;
+    }
+    .mid_content p{
+        font-size: 12px;
+    }
+    .repeated_title h2{
+        font-size: 32px;
+    }
+    .repeated_title p{
+        font-size: 12px;
+    }
+    .repeated_title h4{
+        font-size: 14px;
+    }
+    .choice_item {
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+}
