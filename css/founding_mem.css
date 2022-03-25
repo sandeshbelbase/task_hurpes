@@ -1,0 +1,120 @@
+.founding_head{
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+.founding_head i{
+    background: #F9F6F4;
+    padding: 10px;
+    color: #D96704;
+    font-size: 32px;
+}
+.founding_item h3{
+    font-family: Inter;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #D96704;
+    padding-bottom: 40px;
+}
+.founding_head h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #1D1A12;
+    padding: 15px;
+}
+.founding_head p{
+    width: 400px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.44px;
+}
+
+.former{
+    z-index: 1;
+}
+.founding_item{
+    background-color: #F0F6F2;
+    z-index: -3;
+    padding: 40px 0px;
+}
+.person{
+    background-color: #F2CB04;
+    height: 232px;
+    position: relative;
+    width: 241px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.person img{
+    width: 214.15px;
+    height: 241.43px;
+    /* padding: 20px; */
+    position: absolute;
+    top: -24px;
+}
+.founding_content{
+    padding: 60px 100px !important;
+}
+.founding_content h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.44px;
+    color: #000000;
+    padding-bottom: 10px;
+}   
+.founding_content p{
+    padding-right: 60px;
+    text-align: justify;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.44px;
+}
+.founding_item_white{
+    background-color: #fff;
+    z-index: -3;
+    padding: 40px 0px;
+}
+.founding_item_white .founding_content h1{
+    display: flex;
+    justify-content: flex-end;
+}
+.founding_item_white .news_social{
+    display: flex;
+    justify-content: flex-end;
+}
+.founding_item_white h3{
+    font-family: Inter;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #D96704;
+    padding-bottom: 40px;
+}
+.founding_item_white .founding_content p{
+    padding-right: 0px;
+    padding-left: 60px;
+}

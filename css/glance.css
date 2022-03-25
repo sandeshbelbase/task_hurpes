@@ -1,0 +1,42 @@
+
+.glance_head{
+  background-color: #FFB800;
+  position: relative;
+  padding: 10px 20px;
+  z-index: -1;
+  margin: 40px 0px;
+  width: 242px;
+  height: 46px;
+}
+.glance_back{
+  width: 100%;
+  position: absolute;
+  width: max-content;
+  padding: 10px 20px;
+  top: -6px;
+  left: 8px;
+  /* height: 40px; */
+  background-color: #F9F6F4;
+}
+.glance_head span{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.44px;
+  color: #4C4A4A;
+  z-index: 100;
+}
+.glance_des{
+  margin-bottom: 50px;
+}
+.glance_des p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+}

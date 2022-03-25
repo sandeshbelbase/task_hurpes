@@ -1,0 +1,18 @@
+.transparency h3{
+    padding: 30px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 202.99%;
+    color: #000000;
+}
+.transparency p{
+    padding: 0px !important;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 232.99%;
+    color: #000000;
+}

@@ -1,0 +1,123 @@
+
+.main_banner{
+    position: relative;
+}
+.banner_image img{
+    width: 100%;
+}
+.banner_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_title span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 147%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    background-color: #D96704;
+    padding: 5px 20px;
+    bottom: top;
+    position: relative;
+    top: -22px;
+}
+.single_wrap{
+    background-color: #FAF6ED;
+    padding: 60px 0px;
+    margin-top: 24px;
+}
+.news_image{
+    position: relative;
+}
+.news_image img{
+    width: 100%;
+}
+.news_date h4{
+    background-color: #D96704;
+    position: absolute;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 147%;
+    color: #FFFFFF;
+    bottom: -20px;
+    left: 62px;
+    padding: 2px 10px;
+}
+.news_content{
+    padding: 10px 100px !important;
+}
+.news_social{
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    list-style: none;
+}
+.news_social li{
+    padding-right: 10px;
+    color: #5C6271;
+}
+.news_content h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 116.49%;
+    color: #000000;
+}
+.news_content p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 143.52%;
+    color: #2D2A2A;
+}
+.view_btn{
+    text-align: center;
+    padding: 20px 10px 60px 10px;
+}
+
+/* Single press released content css */
+
+.press_content{
+    padding: 50px 0px;
+    width: 977px;
+}
+.press_content h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 162.5%;
+    color: #D96704;
+    padding-right: 80px;
+}
+.press_content span{
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 168%;
+    color: #000000;
+}
+.press_content span i{
+    color: #67788C;
+}
+.press_content p{
+    text-align: justify;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 203.5%;
+    color: #000000;
+    padding-right: 80px;
+    /* align-content: center; */
+    margin-top: 30px;
+}

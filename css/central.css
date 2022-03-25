@@ -1,0 +1,65 @@
+.campaing_text span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 73px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    color: #FFB800;
+}
+
+.central_head{
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+}
+
+.central_head h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #1D1A12;
+}
+.central_head p{
+    font-family: Utsaah;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #D96704;
+    
+}
+.central_members{
+    padding: 70px 0px;
+}
+.central_members h4{
+    font-family: Utsaah;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #D96704;
+    font-weight: 200;
+    padding: 40px 0px;
+}
+.name_list{
+    margin: 0px;
+    padding-right: 40px !important;
+    list-style: none;
+
+}
+.name_list li{
+    font-family: Utsaah;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+}

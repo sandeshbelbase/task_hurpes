@@ -1,0 +1,32 @@
+.book_wrap img{
+    width: 100%;
+}
+.book_item {
+    width: 100%;
+    padding: 40px 60px 0px 0px;
+}
+.book_item_second {
+    width: 100%;
+    padding: 40px 30px 40px 30px !important;
+}
+.book_item_last {
+    width: 100%;
+    padding: 40px 0px 40px 60px;
+}
+.book_wrap span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.9px;
+    color: #D96704;
+}
+.book_wrap p{
+    font-family: Utsaah;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+}

@@ -1,0 +1,38 @@
+.campaing_text {
+    position: absolute;
+    top: 40%;
+    left: 0 !important;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 108px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campaing_text span {
+    color: #D96704 !important;
+}
+.banner_image{
+    background-image: url("../images/gallery_b.png") !important;
+}
+.gallery_head{
+    padding: 50px 0px;
+}
+.gallery_head h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}

@@ -1,0 +1,22 @@
+.intro_image{
+    background-image: url("../images/research_banner.png");
+    height: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_title span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 141px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    color: #FFB800;
+    background: none;
+}
+.transparency{
+    margin-bottom: 30px;
+}

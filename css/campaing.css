@@ -1,0 +1,145 @@
+.campaing_text{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 108px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFB800;
+}
+.main_banner{
+    position: relative;
+}
+.campaings_wrap h4{
+    padding: 24px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.campaing_item{
+    padding: 30px 50px;
+    border: 3px solid #FDFBF6;
+    margin-top: 20px;
+}
+.banner_image{
+    background-image: url(../images/camp.png);
+    height: max-content;
+}
+.camp_img img{
+    width: 100%;
+}
+.head_line{
+    padding: 8px 30px;
+    text-align: justify;
+}
+.head_line h4{
+    font-family: Utsaah;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+.head_line span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.9px;
+    color: rgba(255, 184, 0, 0.8);
+}
+.head_line p{
+    font-family: Utsaah;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.more_btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.more_btn button{
+    border: none;
+    background-color: #D96704;
+    font-family: Utsaah;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 2px 5px;
+}
+
+/* Style for detail campaing page */
+.img_detail{
+    padding: 0px !important;
+}
+.img_detail p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 167.5%;
+    text-transform: capitalize;
+    color: #D96704;
+    padding: 0px;
+}
+.press_content{
+    padding: 40px 0px !important;
+}
+.press_content h3{
+    color: #000000 !important;
+}
+.c_img img{
+    width: 100%;
+}
+.c_img{
+    margin: 20px 0px !important;
+    padding: 0px;
+}
+.c_gallery{
+    padding-bottom: 40px;
+}
+.c_gallery h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;    
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.program{
+    margin-bottom: 60px;
+}
+.program h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}

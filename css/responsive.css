@@ -1,0 +1,276 @@
+    .toggle{
+        display: none;
+    }
+@media only screen and (max-width: 1200px){
+    .toggle{
+        padding-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 20px;
+    }
+    .top_menu{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .logo img{
+        padding: 20px 0px;
+    }
+    .res_menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dropdown-menu {
+        padding: 0px !important;
+        top: 8px !important;
+        width: max-content;
+    }
+    .about_us{
+        left: -104px !important;
+    }
+    a.dropdown-item {
+        background: linear-gradient(180deg, #4F5254 0%, #393B3A 97.3%);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 1px 0px rgb(255 255 255 / 30%);
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: normal !important;
+        line-height: normal !important;
+        color: #fff;
+        padding: 5px !important;
+        display: flex;
+        border-bottom: 1px solid #000;
+}
+
+@media only screen and (max-width: 1024px){
+    .toggle{
+        padding-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 20px;
+    }
+    .top_menu{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .logo img{
+        padding: 20px 0px;
+    }
+    .slide_contents h2 {
+        font-size: 36px;
+        line-height: 26px;
+    }
+    .former h4{
+    font-size: 14px;
+    }
+    .founder{
+    font-size: 14px;
+    }
+    .person_name span{
+    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .former{
+        padding: 10px !important;
+    }
+    .bottom_former_first .former{
+        padding: 0 20% 20% 25%;
+    }
+    .bottom_former_second .former{
+        padding: 0 25% 20% 20%;
+    }
+}
+
+@media only screen and (max-width: 994px){
+    .former_background{
+        height: 194px;
+    }
+    .glances{
+        padding: 20px;
+    }
+    .hurpes_yellow {
+        height: 254px;
+        width: 266px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .logo{
+        padding: 0px 30px;
+    }
+    .slide_contents h2 {
+        font-size: 28px;
+    }
+    
+    .slide_contents p{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .title h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .title{
+        padding: 60px 0px;
+    }
+    .footer ul li{
+        font-size: 16px;
+    }
+    .toggle{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .former{
+        padding: 20px 90px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .former_background{
+        height: 373px;
+        margin-bottom: 60px;
+        width: 330px;
+    }
+    .former_img{
+        width: 300px;
+    }
+    .person_name{
+        width: 300px !important;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+    }
+    .social li{
+        margin-right: 20px;
+    }
+    p.copyright{
+        padding: 0px !important;
+    }
+    .footer ul {
+    margin: 0px !important;
+    padding: 5px 0px;
+    }
+    .hurpes_yellow {
+        height: 177px;
+        width: 320px;
+    }
+    .program h3{
+        font-size: 16px;
+    }
+    .award-detail{
+        padding: 10px;
+    }
+    .campaing_text{
+        line-height: 42px;
+        font-size: 32px;
+    }
+    .award-detail {
+        padding: 40px 0px 40px 50px;
+    }
+    .news_content{
+        padding: 24px !important;
+    }
+    .single_wrap {
+        background-color: #FAF6ED;
+        padding: 54px 0px;
+        margin-top: 14px;
+    }
+    .book_item {
+        padding: 20px !important;
+    }
+    .book_item_last {
+        padding: 20px !important;
+    }
+    .title p::after {
+        left: 37%;
+    }
+    .book_item{
+        padding: 20px !important;
+    }
+    .book_item_last{
+        padding: 20px !important;
+    }
+    .research_content {
+        padding: 24px !important;
+    }
+
+
+}
+@media only screen and (max-width: 481px){
+    .former_background{
+        height: 340px;
+        margin-bottom: 120px;
+    }
+    .former{
+         margin-top: 0px;
+    }
+    .slide_contents h2 {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .slide_contents p{
+        font-size: 12px;
+        line-height: normal;
+    }
+  
+    .glances p{
+        font-size: 12px;
+    } 
+    .title h4{
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+    .single_wrap {
+        background-color: #FAF6ED;
+        padding: 24px 0px;
+        margin-top: 10px;
+    }
+    .campaings_wrap h4 {
+        padding: 14px 0px;
+        font-size: 16px;
+        line-height: normal;
+    }
+    .campaing_item {
+        padding: 10px;
+        border: 3px solid #FDFBF6;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .title{
+        padding: 45px 0px;
+    }
+
+    .title h4{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .title p{
+        letter-spacing: normal;
+    }
+    .former_background{
+        height: 194px;
+        margin-bottom: 120px;
+    }
+    .campaing_text{
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+
+
