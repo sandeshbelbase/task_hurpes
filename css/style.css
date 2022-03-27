@@ -353,7 +353,7 @@ position: relative;
     width: 316px;
     background-color: #FFB800;
     position: absolute;
-    right: -16px;
+    right: -12px;
     bottom: -16px;
     z-index: -1;
 }
