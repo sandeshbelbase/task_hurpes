@@ -34,7 +34,7 @@
     padding: 15px;
 }
 .founding_head p{
-    width: 400px;
+    width: 100%;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -42,6 +42,8 @@
     line-height: 18px;
     text-align: center;
     letter-spacing: 0.44px;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .former{

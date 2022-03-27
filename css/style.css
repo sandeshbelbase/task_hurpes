@@ -68,7 +68,7 @@ ul.social-icons{
     border-right: 64px solid #ffe52c;
     position: absolute;
     top: 48px;
-    left: 273px;
+    left: 275px;
 
 }
 .dropdown a{
@@ -171,7 +171,7 @@ position: relative;
     left: 45%;
 }
 .former{
-    padding: 52px;
+    padding: 51px;
     position: relative;
 }
 .former_img img{
@@ -219,7 +219,7 @@ position: relative;
 }
 .former_background .former_img{
     position: relative;
-    top: -42px;
+    top: -34px;
 }
 .bottom_former_first .former{
     padding: 0 20% 20% 25%;
@@ -448,6 +448,9 @@ a.dropdown-item{
     color: #A1A1A1;
     font-size: 18px;
     margin-right: 25px;
+}
+.menu_title{
+    margin-bottom: 30px;
 }
 .slide_box{
     position: relative;

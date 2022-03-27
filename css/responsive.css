@@ -20,17 +20,33 @@
     }
     .res_menu{
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: left;
+        justify-content: left;
         flex-direction: column;
+        padding: 30px 0px 0px 00px;
+    }
+    .offcanvas.show{
+        background-color: #fbebde;
+    }
+    .dropdown{
+        font-size: 24px;
+        padding: 0px 60px;
+        border-bottom: 1px solid #eee;
+    }
+    .dropdown a{
+        font-size: 16px;
+        color: #000;
+    }
+    .dropdown a:hover{
+        color: #6d3402;
     }
     .dropdown-menu {
         padding: 0px !important;
-        top: 8px !important;
+        top: 0px !important;
         width: max-content;
     }
     .about_us{
-        left: -104px !important;
+        /* left: -104px !important; */
     }
     a.dropdown-item {
         background: linear-gradient(180deg, #4F5254 0%, #393B3A 97.3%);
@@ -44,6 +60,10 @@
         padding: 5px !important;
         display: flex;
         border-bottom: 1px solid #000;
+    }
+    .square_box{
+        display: none;
+    } 
 }
 
 @media only screen and (max-width: 1024px){
@@ -161,8 +181,8 @@
         padding: 0px !important;
     }
     .footer ul {
-    margin: 0px !important;
-    padding: 5px 0px;
+        margin: 0px !important;
+        padding: 5px 0px;
     }
     .hurpes_yellow {
         height: 177px;
@@ -207,7 +227,59 @@
     .research_content {
         padding: 24px !important;
     }
-
+    .gallery_head {
+        padding: 50px 0px 0px 0px;
+    }
+    .award_img_wrap {
+        margin-top: 10px;
+    }
+    .about{
+        padding-top: 0px !important;
+    }
+    .founding_content{
+        padding: 0px !important;
+    }
+    .founding_item_white .founding_content{
+        order: 2;
+    }
+    .committee_title span{
+        font-size: 14px !important;
+    }
+    .founding_item_white .founding_content p{
+        padding: 0px !important;
+    }
+    .founding_item_white .founding_content h1{
+        justify-content: flex-start;
+    }
+    .founding_content h1{
+        margin-top: 20px ;
+    }
+    .founding_content p{
+        padding: 0px ;
+    }
+    .news_social{
+        justify-content: flex-start;
+    }
+    .founding_item_white .news_social {
+        justify-content: flex-start;
+    }
+    .transparency p{
+        padding: 20px !important;
+        text-align: justify;
+    }
+    .transparency h3{
+        padding: 20px !important;
+        text-align: justify;
+    }
+    .intro_title span{
+        letter-spacing: normal !important;
+        font-size: 32px !important;
+    }
+    .campaing_text span{
+        letter-spacing: normal;
+        font-size: 32px;
+        line-height: normal;
+    }
 
 }
 @media only screen and (max-width: 481px){
@@ -248,6 +320,17 @@
         padding: 10px;
         border: 3px solid #FDFBF6;
         margin-top: 20px;
+    }
+    .offcanvas-start {
+    width: 300px;
+    }
+    .founding_content{
+        padding: 0px 20px !important;
+    }
+    .campaing_text span{
+        letter-spacing: normal;
+        font-size: 24px;
+        line-height: normal;
     }
 }
 
